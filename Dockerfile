@@ -5,6 +5,7 @@ RUN apt-get update && \
   ffmpeg \
   imagemagick \
   webp && \
+  npm i @adiwajshing/baileys \
   apt-get upgrade -y && \
   rm -rf /var/lib/apt/lists/*
 
